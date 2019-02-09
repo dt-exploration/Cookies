@@ -7,6 +7,7 @@ if(isset($_SESSION["counter"])) {
     $_SESSION["counter"]=1;
 }
 
+$msg="Posetio si ovu stranu ".$_SESSION["counter"]." puta."
 ?>
 
 
