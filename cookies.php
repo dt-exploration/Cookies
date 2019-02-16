@@ -2,7 +2,7 @@
 
 //Create and modify cookie
 if(!isset($_COOKIE["id"]))  {
-    setcookie("id","j23sj942Ajola2042p",time()+300);
+    setcookie("id", "j23sj942Ajola2042p", time()+300);
 }
 
  ?>
