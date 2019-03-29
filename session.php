@@ -1,13 +1,13 @@
 <?php
 session_start();
 
-if(isset($_SESSION["counter"])) {
+if (isset($_SESSION["counter"])) {
     $_SESSION["counter"]++;
 } else {
-    $_SESSION["counter"]=1;
+    $_SESSION["counter"] = 1;
 }
 
-$msg="Posetio si ovu stranu ".$_SESSION["counter"]." puta."
+$msg = "Posetio si ovu stranu ".$_SESSION["counter"]." puta."
 
 ?>
 
@@ -19,7 +19,7 @@ $msg="Posetio si ovu stranu ".$_SESSION["counter"]." puta."
    </head>
 
    <body>
-      <?php  echo ( $msg ); ?>
+      <?php  echo $msg; ?>
    </body>
 
 </html>
